@@ -7,8 +7,4 @@ Projekt stworzony na potrzeby rekrutacji do Telemedii. Aplikacja pozwala na graf
 - `frontend`: Frontend w React, wyświetla dane agentów, zapotrzebowanie i harmonogram.
 
 ## Uruchomienie projektu
-
-### Backend (Symfony)
-1. Przejdź do folderu `backend`:
-   ```bash
-   cd backend
+Aplikacja jest już wdrożona i dostępna online pod adresem: [https://kamilkamieniarz.pl](https://kamilkamieniarz.pl).
