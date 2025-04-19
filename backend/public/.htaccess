@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /public
+
+# Przekieruj /public/ na główną stronę
+RewriteCond %{REQUEST_URI} ^/public/$
+RewriteRule ^(.*)$ https://kamilkamieniarz.pl/ [R=301,L]
+
+# Istniejące reguły Symfony
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
